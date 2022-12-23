@@ -1,0 +1,35 @@
+body{
+    background-color: orange;
+    font-family:'open sans', sans-serif; 
+    height: 100%;
+}
+.wraper{
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+}
+h1, h2 {
+    font-size:2.6rem;
+    font-weight:100;
+    text-transform: uppercase;
+}
+#seconds , #tens {
+    font-size:2rem;
+}
+button {
+    width:180px;
+    padding:15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:orange;
+    color:white;
+    text-decoration:none;
+    font-size:1.2rem;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:white;
+    color:orange;
+    transition: all 0.5s ease-in-out;
+}
